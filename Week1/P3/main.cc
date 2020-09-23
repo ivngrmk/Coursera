@@ -13,7 +13,8 @@ int main() {
 	if (D > 0.0) {
 		cout << (-b - sqrt(D)) / 2.0 / a << " " << (-b + sqrt(D)) / 2.0 / a;
 	} else if (D == 0.0) {
-		cout << -b / 2.0 / a; 
-	} else cout << "No roots.";
+		cout << -b / 2.0 / a;
+	}	
 }
+
 
